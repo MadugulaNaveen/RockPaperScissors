@@ -1,0 +1,89 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  font-family:monospace;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-size: 1.2em;
+}
+
+
+.container{
+  width: 80vw;
+  height: 80vh;
+  border-radius: 20px;
+  background-color:bisque;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 2em;
+  box-shadow: 5px 5px 20px 20px bisque;
+  justify-content: center;
+}
+
+.hide{
+  display: none;
+}
+
+.selected{
+  background-color: blue;
+}
+
+.display-flex{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.options{
+  font-size: 4em;
+}
+
+.options:hover{
+  cursor: pointer;
+}
+
+button{
+  padding: 0.2em  0.5em;
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: rgb(129, 156, 146);
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+
+button:hover{
+  cursor: pointer;
+  background-color: rgb(114, 149, 139);
+  color: white;
+}
+
+.resultContainer{
+  display: block;
+  background-color: rgb(253, 252, 196);
+  font-size: 1.5em;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.padding{
+  padding: 0.5em;
+}
+
+@media (max-width:450px){
+  h1{
+    font-size: 1.2em;
+  }
+}
